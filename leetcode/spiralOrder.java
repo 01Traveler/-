@@ -1,5 +1,6 @@
 //顺时针打印二维列表
 //解题思路为模拟，主要有两个需要注意的地方，第一个为输入为空时，第二个为动态边界的确定
+//时间复杂度为O(n),空间复杂度为O(n)
 class Solution {
     public int[] spiralOrder(int[][] matrix) {
         if(matrix == null || matrix.length == 0 || matrix[0].length == 0){

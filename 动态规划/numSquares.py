@@ -36,7 +36,8 @@ class Solution:
                 numSquareList.append(minNum)
         return numSquareList[n]
         
-        
+
+
 if __name__ == "__main__":
     solu = Solution()
     print(solu.numSquares_2(48))
